@@ -1,0 +1,1016 @@
+
+
+
+
+
+################################################################################
+#                                                                              #
+#                                                                              #
+#                          Siemens PLM Software Inc.                           #
+#                                 License File                                 #
+#                                                                              #
+#  Sold-To/Install: 17941                      WebKey Access Code: 92JU0Y2UL0  #
+#     Contact Name: Rainer Lahme                          Created: 02-10-2020  #
+#    Customer Name: Wincor Nixdorf International GmbH                          #
+#   E-mail Address: Rainer.Lahme@dieboldnixdorf.com       Version: 1899        #
+#         CAA Name: Birgit Deutsch                                             #
+#        CAA Email: BIRGIT.DEUTSCH@SIEMENS.COM                                 #
+#        CAA Phone: +49 (221) 20802 471            Sales Quote ID: 1090892-1   #
+#      P.O. Number: Fast Track Quote                License Quote: 1852361     #
+################################################################################
+SERVER pdmapp01p.wincor-nixdorf.com COMPOSITE=06134AA7BFDD 7657
+SERVER pdmapp02p.wincor-nixdorf.com COMPOSITE=3827CF726C99 7657
+SERVER pdmapp01t.wincor-nixdorf.com COMPOSITE=EA2C1AFCE5AD 7657
+VENDOR ugslmd PORT=17657                                                                  
+PACKAGE NX13100N ugslmd 35.0 COMPONENTS="NX13100N_3d_to_2d_flattener \          
+        NX13100N_adv_assemblies NX13100N_assemblies \                           
+        NX13100N_design_studio NX13100N_drafting NX13100N_dxf_to_ug \           
+        NX13100N_dxfdwg NX13100N_features_modeling \                            
+        NX13100N_free_form_modeling NX13100N_gateway \                          
+        NX13100N_geometric_tol NX13100N_grip_execute NX13100N_iges \            
+        NX13100N_nc_external_program NX13100N_nx_flexible_pcb \                 
+        NX13100N_nx_freeform_1 NX13100N_nx_freeform_2 \                         
+        NX13100N_nx_nastran_export NX13100N_nx_sheet_metal \                    
+        NX13100N_nx_spsd_stress NX13100N_nx_spsd_vibration \                    
+        NX13100N_nx_visual_reporting NX13100N_pcf_package_file \                
+        NX13100N_pstudio_cons NX13100N_pv_ugdatagenerator \                     
+        NX13100N_routing_base NX13100N_sla_3d_systems \                         
+        NX13100N_solid_modeling NX13100N_step_ap203 \                           
+        NX13100N_step_ap214 NX13100N_studio_analyze \                           
+        NX13100N_studio_free_form NX13100N_studio_render \                      
+        NX13100N_studio_visualize NX13100N_ug_checkmate \                       
+        NX13100N_ug_kf_checker NX13100N_ug_kf_execute \                         
+        NX13100N_ug_nas_des NX13100N_ug_opt_wizard \                            
+        NX13100N_ug_prod_des_advisor NX13100N_ug_smart_models \                 
+        NX13100N_ug_to_dxf NX13100N_ug_web_express \                            
+        NX13100N_ugopen_menuscript NX13100N_usr_defined_features" \             
+        OPTIONS=SUITE ck=176 SIGN="0EB7 4546 64D5 3175 5F75 C341 F162 \         
+        34AE 3C37 09B4 250D 16DA 516F E6B0 2890 0E5D 6C42 A5D8 22DC \           
+        2345 92BD C6E3 C403 1117 623F DF19 69DD 724A 1B57 00D6"                 
+PACKAGE SC12500 ugslmd 35.0 COMPONENTS="SC12500_3d_to_2d_flattener \            
+        SC12500_assemblies SC12500_dxfdwg SC12500_features_modeling \           
+        SC12500_gateway SC12500_grip_execute SC12500_id_ext_fem_beam \          
+        SC12500_iges SC12500_nx_freeform_1 SC12500_nx_freeform_2 \              
+        SC12500_nx_ftk SC12500_nx_masterfem SC12500_nx_material_system \        
+        SC12500_nx_nastran_export SC12500_nx_nastran_import \                   
+        SC12500_pcf_package_file SC12500_pstudio_cons \                         
+        SC12500_pv_ugdatagenerator SC12500_sc_enabled \                         
+        SC12500_sla_3d_systems SC12500_solid_modeling \                         
+        SC12500_step_ap203 SC12500_step_ap214 SC12500_studio_render \           
+        SC12500_studio_visualize SC12500_ug_checkmate \                         
+        SC12500_ug_kf_checker SC12500_ug_kf_execute \                           
+        SC12500_ug_smart_models SC12500_ug_web_express \                        
+        SC12500_ugopen_menuscript SC12500_usr_defined_features" \               
+        OPTIONS=SUITE ck=203 SIGN="0BEF AFD2 0577 0195 8D8E 2461 7700 \         
+        E184 6F30 969B 788B 4AC8 057F 8904 42DC 135E 756A 756E 62DC \           
+        0567 78B5 4BD8 B8C0 714A 44FF 3D95 7DF5 371B 839B 6D1F"                 
+PACKAGE SC13500 ugslmd 35.0 COMPONENTS="SC13500_3d_to_2d_flattener \            
+        SC13500_assemblies SC13500_dxfdwg SC13500_features_modeling \           
+        SC13500_gateway SC13500_grip_execute SC13500_id_ext_fem_beam \          
+        SC13500_iges SC13500_nx_freeform_1 SC13500_nx_freeform_2 \              
+        SC13500_nx_ftk SC13500_nx_masterfem SC13500_nx_material_system \        
+        SC13500_nx_nastran_export SC13500_nx_nastran_import \                   
+        SC13500_nx_spsd_stress SC13500_nx_spsd_vibration \                      
+        SC13500_nx_visual_reporting SC13500_pcf_package_file \                  
+        SC13500_pstudio_cons SC13500_pv_ugdatagenerator \                       
+        SC13500_sc_enabled SC13500_sla_3d_systems \                             
+        SC13500_solid_modeling SC13500_step_ap203 SC13500_step_ap214 \          
+        SC13500_studio_render SC13500_studio_visualize \                        
+        SC13500_ug_checkmate SC13500_ug_kf_checker \                            
+        SC13500_ug_kf_execute SC13500_ug_nas_bn \                               
+        SC13500_ug_smart_models SC13500_ug_struct_pe_solver \                   
+        SC13500_ug_web_express SC13500_ugopen_menuscript \                      
+        SC13500_usr_defined_features" OPTIONS=SUITE ck=182 SIGN="0906 \         
+        832B 6750 CA0C 1896 950F 6CAD 41E5 369F 3E09 AF1A A807 CA6A \           
+        AA41 A6F3 11DA 9407 A4C4 BBF8 1BD2 D5F4 B815 DADF A592 ADDD \           
+        7879 454E 0011 3E5E B285"                                               
+PACKAGE TOTALMACH ugslmd 35.0 \                                                 
+        COMPONENTS="TOTALMACH_3d_to_2d_flattener TOTALMACH_assemblies \         
+        TOTALMACH_cam_base TOTALMACH_cam_facets \                               
+        TOTALMACH_cavity_milling TOTALMACH_contour_profile \                    
+        TOTALMACH_drafting TOTALMACH_dxf_to_ug TOTALMACH_dxfdwg \               
+        TOTALMACH_fbm_author TOTALMACH_features_modeling \                      
+        TOTALMACH_fix_axis_surf_mill TOTALMACH_flow_cut \                       
+        TOTALMACH_free_form_modeling TOTALMACH_gateway \                        
+        TOTALMACH_geometric_tol TOTALMACH_gmc \                                 
+        TOTALMACH_graphical_tool_path TOTALMACH_grip_execute \                  
+        TOTALMACH_iges TOTALMACH_nc_external_program \                          
+        TOTALMACH_nc_wizard_builder TOTALMACH_nurb_output_enabler \             
+        TOTALMACH_nx_flexible_pcb TOTALMACH_nx_freeform_1 \                     
+        TOTALMACH_nx_freeform_2 TOTALMACH_nx_isv_mtb \                          
+        TOTALMACH_nx_isv_vm_hmi TOTALMACH_nx_nastran_export \                   
+        TOTALMACH_nx_post_config_adv TOTALMACH_nx_sheet_metal \                 
+        TOTALMACH_nx_spsd_stress TOTALMACH_nx_spsd_vibration \                  
+        TOTALMACH_nx_tilt_tool_axis TOTALMACH_nx_visual_reporting \             
+        TOTALMACH_nx_wi_authoring TOTALMACH_pcf_package_file \                  
+        TOTALMACH_planar_milling TOTALMACH_probe \                              
+        TOTALMACH_pstudio_auth TOTALMACH_pstudio_cons \                         
+        TOTALMACH_pv_ugdatagenerator TOTALMACH_routing_base \                   
+        TOTALMACH_sequential_milling TOTALMACH_shop_doc \                       
+        TOTALMACH_sla_3d_systems TOTALMACH_solid_modeling \                     
+        TOTALMACH_step_ap203 TOTALMACH_step_ap214 \                             
+        TOTALMACH_studio_render TOTALMACH_studio_visualize \                    
+        TOTALMACH_surface_milling TOTALMACH_sync_mgr \                          
+        TOTALMACH_tol_cavity_milling TOTALMACH_ug_checkmate \                   
+        TOTALMACH_ug_holemaking TOTALMACH_ug_isv_full \                         
+        TOTALMACH_ug_isv_sinumerik TOTALMACH_ug_kf_checker \                    
+        TOTALMACH_ug_kf_execute TOTALMACH_ug_library_access \                   
+        TOTALMACH_ug_nas_des TOTALMACH_ug_post_exe \                            
+        TOTALMACH_ug_post_kinematics TOTALMACH_ug_post_mill \                   
+        TOTALMACH_ug_smart_models TOTALMACH_ug_to_dxf \                         
+        TOTALMACH_ug_to_vericut TOTALMACH_ug_turning \                          
+        TOTALMACH_ug_visualize TOTALMACH_ug_web_express \                       
+        TOTALMACH_ugopen_menuscript TOTALMACH_usr_defined_features \            
+        TOTALMACH_var_axis_surf_mill TOTALMACH_wire_edm_machining" \            
+        OPTIONS=SUITE ck=190 SIGN="0289 5995 2E8C A62F 48FD E936 9498 \         
+        14A0 471F 255F FF8D E73A A03C E212 C6A6 1619 CED6 6CF6 DBF7 \           
+        1D1F 22E6 77CE EE98 5E78 8570 FAD6 2DEA 38DE 5EF6 A281"                 
+INCREMENT vis_vsa_buildmodel ugslmd 12.0 31-mar-2020 8 SUPERSEDE \              
+        DUP_GROUP=UHD user_info="Variation Analysis NU" \                       
+        ISSUED=10-feb-2020 BORROW=2880 ck=200 SIGN="1779 628D 8F1F \            
+        C43F 7C6A 71C2 15F1 7F54 8D05 C5B2 89E7 D40B 1478 3C40 6007 \           
+        00C7 8F79 3FDF 4EA7 6CF0 4DBD 14B5 085C C2CA 9626 FEC2 27B7 \           
+        0B93 4541 F464"                                                         
+INCREMENT visview_vsa_buildmodel ugslmd 12.0 31-mar-2020 8 SUPERSEDE \          
+        DUP_GROUP=UHD user_info="Variation Analysis NU" \                       
+        ISSUED=10-feb-2020 BORROW=2880 ck=197 SIGN="05AF DA87 A495 \            
+        C681 26FE 43E6 1134 B00B 4EBF D59C DC39 7E3D 7F0F 5A0F C0D8 \           
+        1C98 0209 1A73 7413 03B5 3447 A7D8 D5F4 52D9 B96E F50F C9CC \           
+        36B1 0D18 4C08"                                                         
+INCREMENT visview_vsa_runsim ugslmd 12.0 31-mar-2020 8 SUPERSEDE \              
+        DUP_GROUP=UHD user_info="Variation Analysis NU" \                       
+        ISSUED=10-feb-2020 BORROW=2880 ck=173 SIGN="11CF 551C 8441 \            
+        3341 BF00 69E9 7682 FCB4 AD1C 8432 3CF8 9766 80E9 D946 FBAB \           
+        1DBB A4BD 42AB 8E03 1FFD 31ED 8FC7 72DF 8683 A556 5DC9 69CD \           
+        7D70 47F9 4A29"                                                         
+INCREMENT visview_vsa_savedoc ugslmd 12.0 31-mar-2020 8 SUPERSEDE \             
+        DUP_GROUP=UHD user_info="Variation Analysis NU" \                       
+        ISSUED=10-feb-2020 BORROW=2880 ck=237 SIGN="046A 2788 222B \            
+        D8E2 71E4 807D 8D29 19C3 0722 3879 24A3 6368 5DCD 6762 0220 \           
+        0A50 B484 B111 EFCD A065 BD61 9AA5 FA72 06DA 08B2 9142 EE39 \           
+        4258 FF5B 57C2"                                                         
+INCREMENT NX13100N ugslmd 35.0 permanent 134 SUPERSEDE DUP_GROUP=UHD \          
+        user_info="NX Mach 3 Prod Design" ISSUED=10-feb-2020 \                  
+        BORROW=2880 ck=207 SIGN="1580 D91C 7FD2 F535 8373 3DDC C9B3 \           
+        038E 9737 FA61 E512 1BD0 232E 382C 22D6 01BA C78C 33D0 C370 \           
+        1F6F D3E9 13FA F6A8 5E8E C0DD 7B4B E572 762E 28A5 A59A"                 
+INCREMENT SC12500 ugslmd 35.0 permanent 3 SUPERSEDE DUP_GROUP=UHD \             
+        user_info="Simcenter Eng Desktop" ISSUED=10-feb-2020 \                  
+        BORROW=2880 ck=172 SIGN="076D 99B9 8E65 EA26 8159 694E 8E73 \           
+        1D58 EB9D 2BA8 8DA9 4153 B439 ED64 D317 018B B297 9882 0614 \           
+        A81F 6995 C08C 5FF8 1916 2436 63B8 197A D637 7B9E 8D33"                 
+INCREMENT SC13500 ugslmd 35.0 permanent 5 SUPERSEDE DUP_GROUP=UHD \             
+        user_info="Simcenter Structures" ISSUED=10-feb-2020 \                   
+        BORROW=2880 ck=184 SIGN="19D6 913D A807 A896 ECE2 EE8F 04AD \           
+        9B43 3496 C313 0F75 CCDA 5DDD B480 C3D3 0BFF D4F0 CE6F 9C08 \           
+        1B0D 3C85 FE31 4DBD 56D0 7B7C E4BC 7A3F 4A29 4AC0 B772"                 
+INCREMENT TOTALMACH ugslmd 35.0 permanent 3 SUPERSEDE DUP_GROUP=UHD \           
+        user_info="NX Total Machining" ISSUED=10-feb-2020 BORROW=2880 \         
+        ck=192 SIGN="1CCD 22B6 FFEF 5270 72D3 DEE0 B249 2784 3E8B A617 \        
+        5648 4A44 0061 6A9A A53F 00EC 7228 6A76 990E 1AD5 1491 277A \           
+        18D7 D83D 6B4E 9862 952D F634 4F21 B125"                                
+INCREMENT active_collab ugslmd 12.0 permanent 1531 SUPERSEDE \                  
+        DUP_GROUP=UHD ISSUED=10-feb-2020 ck=185 SIGN="1EB0 1EB2 A010 \          
+        F823 F664 8854 07B3 1138 21AC 9510 DD64 5FE7 E356 05D9 95F0 \           
+        1923 35FB 4199 1D05 3956 9E55 9C41 0B95 3584 E79D 1748 9F72 \           
+        E128 158F 199E"                                                         
+INCREMENT adv_sheet_metal_dsgn ugslmd 35.0 permanent 2 SUPERSEDE \              
+        DUP_GROUP=UHD user_info="NX Adv Sheet Metal" \                          
+        ISSUED=10-feb-2020 BORROW=2880 ck=225 SIGN="0EBB 8F34 7863 \            
+        796E F65F 558F 4BBE 9E60 7819 47AB 881D 4165 DF10 D41B 8BDB \           
+        0424 EBB9 0F79 CE8D 9B1E D01A A75F 19DC 60C4 5D70 3AE8 2F1A \           
+        9706 2FEF BA55"                                                         
+INCREMENT aero_sheet_metal ugslmd 35.0 permanent 2 SUPERSEDE \                  
+        DUP_GROUP=UHD user_info="NX Adv Sheet Metal" \                          
+        ISSUED=10-feb-2020 BORROW=2880 ck=197 SIGN="1A4C 05F5 47F4 \            
+        89BD 195E 36E5 8DDF 01C4 25E6 3FA4 67B0 B90A 5557 7441 5135 \           
+        12D2 7C1C 2899 E27B EB48 FFA7 B89F 3EA5 578B 7E9D FE04 B9FF \           
+        D094 CC72 39F0"                                                         
+INCREMENT ansys_meshers ugslmd 35.0 permanent 8 SUPERSEDE \                     
+        DUP_GROUP=UHD user_info="Common to Simcenter Eng Desktop; \             
+        Simcenter Structures" ISSUED=10-feb-2020 BORROW=2880 ck=240 \           
+        SIGN="06FF 12BE 5BBB CE82 6A25 C58D DC02 38FB F60B 3615 4127 \          
+        30EA 3A8A A478 6CD8 0906 B361 4A0B 4BF4 3DB0 C677 5339 79B8 \           
+        A26F 44EB 5384 3236 1E0E 0414 A643"                                     
+INCREMENT borrowing ugslmd 35.0 permanent 1 DUP_GROUP=NONE \                    
+        user_info="License Borrow Option" ISSUED=10-feb-2020 ck=193 \           
+        SIGN="0B1C C29A FDEC B277 6907 AED3 AF10 E671 4197 F8E5 8A6F \          
+        8CEA B1CF 5DA5 8C07 0017 59F9 379B 61F9 E8E3 EADD F59C 6F5D \           
+        3DC3 6B07 0082 78E7 EB01 9525 4940"                                     
+INCREMENT c_p_p_author ugslmd 35.0 permanent 99999 SUPERSEDE \                  
+        DUP_GROUP=UHD user_info="NX Open Toolkits Author" \                     
+        ISSUED=10-feb-2020 BORROW=2880 ck=227 SIGN="1C7B CA30 3F9C \            
+        525C 52D2 DABC 30AD C776 462A 05FB 1757 3E8B F5EB ED65 BFDD \           
+        0386 6F93 3836 BE71 1E4C FF8A 0AD1 48A2 AFB7 B637 AB71 8CAE \           
+        0110 1546 3AE9"                                                         
+INCREMENT classification_authr ugslmd 12.0 permanent 126 SUPERSEDE \            
+        DUP_GROUP=UHD ISSUED=10-feb-2020 ck=192 SIGN="1C8C 7A85 3E81 \          
+        D435 8A7F 5538 A568 032B 11DD E10B 97A1 4059 4E83 24AB 9A02 \           
+        0A5D 6B6B 789D 2D4B E2D6 8D2E 303B C2EC 6E28 9D8C 0851 2B2D \           
+        470F 0624 D2F4"                                                         
+INCREMENT cmm_ideas_nx ugslmd 35.0 permanent 1 SUPERSEDE \                      
+        DUP_GROUP=UHD user_info="Content Migration Mgr" \                       
+        ISSUED=10-feb-2020 BORROW=2880 ck=173 SIGN="0DCB 756B F6C4 \            
+        D77F FC28 FD5A F753 ED68 5CED E9C3 9EB7 70F7 B26E 0245 F2EE \           
+        0FE9 97BE 1EE5 10BE 53B5 26CE 1229 7B63 C215 B0BE 65C4 042F \           
+        8A88 9CA4 A1B3"                                                         
+INCREMENT dotnet_author ugslmd 35.0 permanent 99999 SUPERSEDE \                 
+        DUP_GROUP=UHD user_info="NX Open Toolkits Author" \                     
+        ISSUED=10-feb-2020 BORROW=2880 ck=194 SIGN="034E A475 61E0 \            
+        AB5B 091D 89F8 6BD2 79E9 C598 5B6A 0274 A749 67BE 7BD6 C6EB \           
+        02AD 6EFE 2DCE BE0C 8D7F 5D1B F6FC 902E 440D B385 E8FE 6C07 \           
+        A7A4 E41B 271A"                                                         
+INCREMENT dxf_file_translator ugslmd 12.0 permanent 2 SUPERSEDE \               
+        DUP_GROUP=UHD user_info="DXF to JT File Translator" \                   
+        ISSUED=10-feb-2020 BORROW=2880 ck=210 SIGN="166B E904 F556 \            
+        E4AD 8036 79D5 D032 8831 D5AA D791 9D44 E0C8 6570 85D8 BFD7 \           
+        1F37 E90E 0FCC 77B1 F403 1E2D 924F F0D2 79BF B2E0 EAC7 915E \           
+        4260 F879 3F09"                                                         
+INCREMENT flat_patterns ugslmd 35.0 permanent 2 SUPERSEDE \                     
+        DUP_GROUP=UHD user_info="NX Adv Sheet Metal" \                          
+        ISSUED=10-feb-2020 BORROW=2880 ck=178 SIGN="1AB0 7D2F EB03 \            
+        3071 AF99 FE8A 7BDB 25DC 47B0 2757 2727 9033 C368 9122 57FF \           
+        05A3 FFE7 87E7 F6C7 5BC1 B188 EE02 4A93 F4AA BE24 A1B3 C34E \           
+        AC3D 1523 F1FC"                                                         
+INCREMENT flytojt_file_transl ugslmd 12.0 permanent 42 SUPERSEDE \              
+        DUP_GROUP=UHD user_info="Common to TcVis Mockup All Floating; \         
+        TcVisualization Pro Plus All Plat" ISSUED=10-feb-2020 \                 
+        BORROW=2880 ck=149 SIGN="1ED3 0FA6 BC8A 6D4D 4F73 E178 73BB \           
+        B25C 8A78 9F4A 2E84 542C 981D 1122 7469 0D88 924D F846 8589 \           
+        F3D6 C59F E725 A60B 6ED0 7A8F 1379 8549 F33D 1214 31BA"                 
+INCREMENT flytojt_file_translator ugslmd 12.0 permanent 42 SUPERSEDE \          
+        DUP_GROUP=UHD user_info="Common to TcVis Mockup All Floating; \         
+        TcVisualization Pro Plus All Plat" ISSUED=10-feb-2020 \                 
+        BORROW=2880 ck=224 SIGN="0975 8AC3 F20C B8A6 A380 D3B5 BB50 \           
+        39C8 9CD8 1B14 739D A8B0 0B0C 13C7 DBCC 0CDF 6C4F 7579 6B98 \           
+        A0C0 F193 7333 82EC 95FD D6F9 F39A 6C63 1E23 84F9 8832"                 
+INCREMENT gateway_id ugslmd 35.0 permanent 1000 SUPERSEDE \                     
+        DUP_GROUP=UHD user_info="I-deas gateway" ISSUED=10-feb-2020 \           
+        BORROW=2880 ck=203 SIGN="03C3 D4D8 B228 D11A A6E5 2799 A42B \           
+        8AF0 1D44 D387 11CA 129E 03F8 34DF 8847 0703 B16F 632E 0319 \           
+        009E EF31 AAC6 8BF2 E414 2B64 B7BF 93B0 9688 54B7 347D"                 
+INCREMENT gfem_ansys ugslmd 35.0 permanent 8 SUPERSEDE DUP_GROUP=UHD \          
+        user_info="Common to Simcenter Eng Desktop; Simcenter \                 
+        Structures" ISSUED=10-feb-2020 BORROW=2880 ck=181 SIGN="0F91 \          
+        9B40 A9B3 0C48 030E A39F B57E B65B 5C15 E82A 3CC5 C9A2 EE1D \           
+        F0E1 8E97 150B 6EE0 AADD B21E E89B 6500 79AA EBFF DB40 5D93 \           
+        33F8 8244 C03C D974 FD95"                                               
+INCREMENT gfem_nastran ugslmd 35.0 permanent 8 SUPERSEDE \                      
+        DUP_GROUP=UHD user_info="Common to Simcenter Eng Desktop; \             
+        Simcenter Structures" ISSUED=10-feb-2020 BORROW=2880 ck=158 \           
+        SIGN="0306 6E83 15EA CB80 08C6 EE41 8034 18D6 B1F0 38D5 F06B \          
+        ABF8 1C71 3C9E B074 0783 81D4 EE6A 38C8 9D05 6DE1 7647 F357 \           
+        E16D A85D DBFF 35E6 93DC 3007 72D1"                                     
+INCREMENT ideas_integration ugslmd 12.0 permanent 142 SUPERSEDE \               
+        DUP_GROUP=UHD ISSUED=10-feb-2020 ck=223 SIGN="1DAD 6086 6901 \          
+        855A FDDA 356F 0D9D 49AA 2B12 BB6E B869 182F 85AC 662C 753C \           
+        0E3E 8139 8A04 AB79 12BB 343A F581 5FC9 317F EA27 3725 0FC6 \           
+        DE8C 89D8 94B2"                                                         
+INCREMENT iges_file_translator ugslmd 12.0 permanent 2 SUPERSEDE \              
+        DUP_GROUP=UHD user_info="IGES File Translator" \                        
+        ISSUED=10-feb-2020 BORROW=2880 ck=159 SIGN="0642 0AB9 A35D \            
+        663B 7FE7 32EC DAF9 451B 4AE2 7F80 1FAD 3D36 D5DC D940 A233 \           
+        1E3D 6F96 8002 B677 044C 62CA 9CCF 943B 58AE 7537 1BE1 FAE3 \           
+        0A57 B1BD F9A6"                                                         
+INCREMENT java_author ugslmd 35.0 permanent 99999 SUPERSEDE \                   
+        DUP_GROUP=UHD user_info="NX Open Toolkits Author" \                     
+        ISSUED=10-feb-2020 BORROW=2880 ck=202 SIGN="1078 39BD 677D \            
+        807A 9499 6F84 5B07 D95D D0DE A48E A06D AFD1 1998 52D5 9597 \           
+        1428 B880 BCEE 307A CF70 C3A7 9C94 C3EC 6DBD F4FD 86BE C2B1 \           
+        07FB 20A7 50F0"                                                         
+INCREMENT jt_to_step ugslmd 12.0 permanent 1 SUPERSEDE DUP_GROUP=UHD \          
+        user_info="STEP Translator Transition" ISSUED=10-feb-2020 \             
+        BORROW=2880 ck=190 SIGN="15E5 1243 0291 8656 0693 D92C CC50 \           
+        B04D 74DA 2E02 6BCC 19FC F9A3 27EC 3A01 1CD3 09A1 7C45 0261 \           
+        3B84 A908 07D5 2D3B AAFA 157E 8262 1B86 7136 3206 0B6C"                 
+INCREMENT mechanisms ugslmd 35.0 permanent 17 SUPERSEDE DUP_GROUP=UHD \         
+        user_info="NX Motion Sim-RecurDyn" ISSUED=10-feb-2020 \                 
+        BORROW=2880 ck=190 SIGN="1C36 2A85 B970 5F49 C606 F572 022C \           
+        EBF9 18A0 CF01 5418 10A2 7F8D 593C C66F 120E 5652 D689 87CD \           
+        5E68 9141 A328 F68E D7A3 8D2B 62DE BA09 C06E 5A9E 33EC"                 
+INCREMENT motion_dyn_lms ugslmd 35.0 permanent 17 SUPERSEDE \                   
+        DUP_GROUP=UHD user_info="NX Motion Sim-RecurDyn" \                      
+        ISSUED=10-feb-2020 BORROW=2880 ck=155 SIGN="18C0 A800 7A21 \            
+        B36C 50DD E88E C187 96ED 8030 71FB 3B1C 3AAD 39A9 1F76 AA41 \           
+        1326 90E5 63AE 5CD7 F979 74AA 699E 9B0B BDEC 0E5A F01A 7AE6 \           
+        C2C8 DD18 E5A1"                                                         
+INCREMENT motion_dyn_recurdyn ugslmd 35.0 permanent 17 SUPERSEDE \              
+        DUP_GROUP=UHD user_info="NX Motion Sim-RecurDyn" \                      
+        ISSUED=10-feb-2020 BORROW=2880 ck=148 SIGN="16B5 36CC DDCA \            
+        1F31 D8A3 2383 EF27 0E07 B419 CD58 9BD4 9C14 5427 4619 60AE \           
+        06C0 A759 E045 F860 B771 4401 5E72 1818 F7A4 1A8D E9DD 3C3F \           
+        39E4 3F4B 5A3F"                                                         
+INCREMENT motion_export_adm ugslmd 35.0 permanent 17 SUPERSEDE \                
+        DUP_GROUP=UHD user_info="NX Motion Sim-RecurDyn" \                      
+        ISSUED=10-feb-2020 BORROW=2880 ck=180 SIGN="0D8C 3ED0 667C \            
+        F2A1 1CC9 9EA1 10E5 2AF0 33B2 E7C4 9C2B 0418 5EE4 14ED D89B \           
+        013A 5128 72CB 0182 301E 8312 DDFC 4696 E796 D2C1 7948 7627 \           
+        00BD AEA2 265C"                                                         
+INCREMENT motion_kin_lms ugslmd 35.0 permanent 17 SUPERSEDE \                   
+        DUP_GROUP=UHD user_info="NX Motion Sim-RecurDyn" \                      
+        ISSUED=10-feb-2020 BORROW=2880 ck=194 SIGN="05F2 0C74 EEEB \            
+        3AD2 3AA1 9873 0CFE 8183 41AD EA94 A9F7 E847 1E6B 115C 8DBB \           
+        02AD 4208 2200 A7F7 B8BD 8107 E126 4BB9 19AB A7BE 4C2F AF2E \           
+        737E C73E 7096"                                                         
+INCREMENT motion_kin_recurdyn ugslmd 35.0 permanent 17 SUPERSEDE \              
+        DUP_GROUP=UHD user_info="NX Motion Sim-RecurDyn" \                      
+        ISSUED=10-feb-2020 BORROW=2880 ck=194 SIGN="1852 87D4 388B \            
+        8F84 C922 03BE 855F FA3F 1CBE C5B5 7E7D 6FEB 5A38 00BD 2448 \           
+        0523 DADC 2498 91BE 930C 6EAA E652 41D0 FD1D 0E20 D68D 80BA \           
+        6011 0A04 EB47"                                                         
+INCREMENT nx_3d_swept_volume ugslmd 35.0 permanent 17 SUPERSEDE \               
+        DUP_GROUP=UHD user_info="NX Motion Sim-RecurDyn" \                      
+        ISSUED=10-feb-2020 BORROW=2880 ck=240 SIGN="0FD5 478F 0A17 \            
+        0FF3 8300 5C43 6109 51B6 7C42 310D FAA7 46A8 16C4 02D5 E102 \           
+        1C42 483D C92E B545 9832 93BE 15DA 21E7 DDC3 0FD3 A82D 53A2 \           
+        B309 44CE F11F"                                                         
+INCREMENT nx_electrode_wizard ugslmd 35.0 permanent 2 SUPERSEDE \               
+        DUP_GROUP=UHD user_info="NX Electrode Design" \                         
+        ISSUED=10-feb-2020 BORROW=2880 ck=191 SIGN="0D46 6CE6 9F85 \            
+        73BB 64A6 EDB7 33B9 CBC7 D000 96F6 0D39 4711 3BC4 74DE E722 \           
+        0772 1025 3076 60A9 DE3D 6EE1 61BA B2E8 95FA 87EF 4D58 CC75 \           
+        4FFE 5C4F FCE6"                                                         
+INCREMENT nx_ftk ugslmd 35.0 permanent 17 SUPERSEDE DUP_GROUP=UHD \             
+        user_info="NX Motion Sim-RecurDyn" ISSUED=10-feb-2020 \                 
+        BORROW=2880 ck=188 SIGN="0E2D A8DE 3597 29E8 61B1 FC25 7B30 \           
+        05A2 0E51 EBBC 846D FC4E E205 A68E 31C4 0242 B1BC 8CCF 4162 \           
+        B156 70C6 AAAC 50FC AD57 11EB AECE 0F6E F91C 483D 4779"                 
+INCREMENT nx_integration ugslmd 12.0 permanent 142 SUPERSEDE \                  
+        DUP_GROUP=UHD ISSUED=10-feb-2020 ck=138 SIGN="1474 06EB EE31 \          
+        57A7 634D 4DEF CAE6 9BB3 9ADD 062E ADD6 5977 4753 BA82 DDD6 \           
+        1011 21C9 0368 5040 BBC0 90D7 65CA E764 D8A6 ACC9 0ADD 437A \           
+        725F E2C2 DFAA"                                                         
+INCREMENT nx_isv_mtb ugslmd 35.0 permanent 2 SUPERSEDE DUP_GROUP=UHD \          
+        user_info="Mechatronics Concept Designer for NX" \                      
+        ISSUED=10-feb-2020 BORROW=2880 ck=207 SIGN="1FCD FA8B 46C4 \            
+        0081 1D23 F8F3 26C7 5001 D18A 7056 D5A0 3B7E DD26 C5FD 3B9E \           
+        09F2 E888 32B1 4169 96FD 2313 1035 E6B1 8E5B DA3C 99E5 2337 \           
+        1BF7 6DF5 0C15"                                                         
+INCREMENT nx_mcd_core ugslmd 35.0 permanent 2 SUPERSEDE DUP_GROUP=UHD \         
+        user_info="Mechatronics Concept Designer for NX" \                      
+        ISSUED=10-feb-2020 BORROW=2880 ck=192 SIGN="0198 F6B8 0768 \            
+        677D 7990 C858 ACE1 CA0A DA78 DA62 EF14 BC84 0D2F E510 696C \           
+        1C5D 447A 1D1A 62BA 86EF 595C 84BB 3376 B9B5 2D7B B31C 82C6 \           
+        A93F 3C2C 4D28"                                                         
+INCREMENT nx_nas_bn_basic_dsk ugslmd 35.0 permanent 142 SUPERSEDE \             
+        DUP_GROUP=NONE user_info="Common to NX Mach 3 Prod Design; NX \         
+        Total Machining; Simcenter Structures" ISSUED=10-feb-2020 \             
+        BORROW=2880 ck=217 SIGN="0E7E 080E 7938 E99A 4E79 D267 A7FF \           
+        B65B 632D 5ADD BA0E F254 53D3 188D 8506 12A2 3C47 3B32 5B56 \           
+        0557 6B77 0816 DF1D F606 B98F 3BB8 7C3D B6A0 6558 49EF"                 
+INCREMENT nx_nas_nonlin_dsk ugslmd 35.0 permanent 5 SUPERSEDE \                 
+        DUP_GROUP=NONE user_info="Simcenter Structures" \                       
+        ISSUED=10-feb-2020 BORROW=2880 ck=247 SIGN="15DA 0FD7 A381 \            
+        BEAD C6C5 6F90 A7AF 768F 8418 897A 9FD8 A16E 8A35 C27D 4BC4 \           
+        0F06 BB2E AFBE 6A43 8F40 DA43 A5FC A7DD 520D 0AC3 BF12 D247 \           
+        1F37 481D F348"                                                         
+INCREMENT nx_response_anlys ugslmd 35.0 permanent 1 SUPERSEDE \                 
+        DUP_GROUP=UHD user_info="Simcenter Response Dynamics" \                 
+        ISSUED=10-feb-2020 BORROW=2880 ck=207 SIGN="1A76 C8DD 70EB \            
+        E548 8944 9CB9 5290 FF43 3BE9 5758 3D72 0DF7 349B 1062 649A \           
+        0E34 1392 E403 DF32 EDE7 270B 271F F2F2 5074 2B3C F9B3 31B9 \           
+        5095 57FD 1F19"                                                         
+INCREMENT nx_sheet_metal ugslmd 35.0 permanent 2 SUPERSEDE \                    
+        DUP_GROUP=UHD user_info="NX Adv Sheet Metal" \                          
+        ISSUED=10-feb-2020 BORROW=2880 ck=192 SIGN="1E52 B7E8 8D46 \            
+        9231 8913 5CC0 F0BD 613B 7BF6 C7F3 29E9 6BF1 1065 B10A 38BC \           
+        163F 059A 8158 58D1 1CF0 9D54 31F3 7BF9 C977 7F0A A693 FD61 \           
+        53C7 0AE5 6693"                                                         
+INCREMENT nx_visual_reporting ugslmd 35.0 permanent 1 SUPERSEDE \               
+        DUP_GROUP=UHD user_info="HD3D Visual Reporting" \                       
+        ISSUED=10-feb-2020 BORROW=2880 ck=224 SIGN="008E E057 96D7 \            
+        2357 C3F9 0F99 5675 5F5E C2BD A82C 2066 81FB 0D7D 97A4 CE51 \           
+        0A53 51D9 63C0 1657 2443 4344 4063 BD8C D44E 690B 627D D66E \           
+        7EDD 4075 470C"                                                         
+INCREMENT proenx ugslmd 35.0 permanent 3 SUPERSEDE DUP_GROUP=UHD \              
+        user_info="NX PROE INTERFACE" ISSUED=10-feb-2020 BORROW=2880 \          
+        ck=214 SIGN="0EB2 3B58 A7DF C358 5D35 6AF0 479D EEE9 FF2C CD51 \        
+        DB0D 60E5 98C7 2D36 A3C7 03FB 0F15 D72F 8FFF 4D12 3684 5F1F \           
+        48B1 7904 090B 6011 EAFC E972 5BCA 8926"                                
+INCREMENT routing_advanced ugslmd 35.0 permanent 7 SUPERSEDE \                  
+        DUP_GROUP=UHD user_info="NX Routing Harness" \                          
+        ISSUED=10-feb-2020 BORROW=2880 ck=174 SIGN="13A7 5BC3 EDF1 \            
+        5D6F ED68 638A 3114 336B 55FB 4511 8788 AE73 6D8B F303 0970 \           
+        05B4 B108 754F 3A2F DF8E B155 635F BDE6 23DE 8BF0 D8AB FDE2 \           
+        0E87 423B 3C42"                                                         
+INCREMENT routing_conduit ugslmd 35.0 permanent 7 SUPERSEDE \                   
+        DUP_GROUP=UHD user_info="NX Routing Harness" \                          
+        ISSUED=10-feb-2020 BORROW=2880 ck=166 SIGN="1FFB 04D4 4915 \            
+        444B 29B4 75FF F15D 8DF6 6E2C 8110 73AD 8FF7 464D FCFB B5D2 \           
+        04C3 059D 6EAB DE2D 7B12 87F7 33E4 3BF5 2341 8D36 FEE7 0E7C \           
+        7FCF 5BD6 BEDE"                                                         
+INCREMENT routing_electrical ugslmd 35.0 permanent 7 SUPERSEDE \                
+        DUP_GROUP=UHD user_info="NX Routing Harness" \                          
+        ISSUED=10-feb-2020 BORROW=2880 ck=243 SIGN="03C1 79C6 A6A9 \            
+        8F03 5727 3356 7D5B B95D D486 E951 4DB4 D1A8 B118 04D4 FCBB \           
+        094D F591 7826 F65D 400D 98F8 FACB B3CF 7A8D A830 F8BA B4B3 \           
+        C10A C017 29BE"                                                         
+INCREMENT routing_harness ugslmd 35.0 permanent 7 SUPERSEDE \                   
+        DUP_GROUP=UHD user_info="NX Routing Harness" \                          
+        ISSUED=10-feb-2020 BORROW=2880 ck=220 SIGN="04F8 EF38 891E \            
+        0A09 71CD F898 93A7 B531 E2E7 7C3A F74E EE49 4352 672C 7729 \           
+        1AD3 4D87 1A7D 4BDB E1B5 ACE4 39FA C868 B512 5C09 4DCF C548 \           
+        F763 3FC6 1571"                                                         
+INCREMENT routing_raceway ugslmd 35.0 permanent 7 SUPERSEDE \                   
+        DUP_GROUP=UHD user_info="NX Routing Harness" \                          
+        ISSUED=10-feb-2020 BORROW=2880 ck=214 SIGN="0BCA 6E4E 7398 \            
+        C38A 8A93 D915 ED9D 16E6 C933 A06A 9244 7393 AD2A 2883 24F7 \           
+        0B9B 1D8A 9699 A458 CE05 49BD 2117 ABD7 F920 A8C8 BD6F 02FD \           
+        8D82 7A66 358A"                                                         
+INCREMENT routing_wiring ugslmd 35.0 permanent 7 SUPERSEDE \                    
+        DUP_GROUP=UHD user_info="NX Routing Harness" \                          
+        ISSUED=10-feb-2020 BORROW=2880 ck=179 SIGN="1DD9 0C71 8C21 \            
+        E51A 7EA8 1F5A 531A 3A4F 333C 4575 0817 8DB7 8A50 808F 4E05 \           
+        1CC5 327C E988 776B 6B1A F734 429A EB57 B80B 6533 541B 7BA7 \           
+        55F4 57A9 832F"                                                         
+INCREMENT sc3d_dsktop_presence ugslmd 35.0 permanent 8 SUPERSEDE \              
+        DUP_GROUP=UHD user_info="Common to Simcenter Eng Desktop; \             
+        Simcenter Structures" ISSUED=10-feb-2020 BORROW=2880 ck=234 \           
+        SIGN="01A8 D1CC C22F 99A2 E597 84F2 5FBF 0577 B3F6 F07E 9706 \          
+        4AC1 32D8 B8F7 7C33 153A 70EB DE5A BADB C861 01CD 4E49 712D \           
+        43CC 3A99 6AB8 300B 0975 2FB8 4D00"                                     
+INCREMENT sc_motion_designer ugslmd 35.0 permanent 17 SUPERSEDE \               
+        DUP_GROUP=UHD user_info="NX Motion Sim-RecurDyn" \                      
+        ISSUED=10-feb-2020 BORROW=2880 ck=242 SIGN="1436 9ED9 F0E9 \            
+        ACD2 7B8F 092A 17FC 5454 1A82 2197 3F70 A74E 9797 DA0F F8A2 \           
+        095C EF5D 3FB1 5ABC 45AF 9966 5C5C CD9C FCA0 92F7 4B13 B197 \           
+        F23D 7E15 B229"                                                         
+INCREMENT sheet_metal ugslmd 35.0 permanent 2 SUPERSEDE DUP_GROUP=UHD \         
+        user_info="NX Adv Sheet Metal" ISSUED=10-feb-2020 BORROW=2880 \         
+        ck=180 SIGN="031F 8446 8578 52E9 8E35 3CC6 C838 946A 77E4 B66B \        
+        6EF8 8084 A73F 461D C5EF 068D 91CF 737E 9578 736B C41F FB9D \           
+        1917 4319 9E90 041C 62C2 3A1B CB23 6937"                                
+INCREMENT sheet_metal_design ugslmd 35.0 permanent 2 SUPERSEDE \                
+        DUP_GROUP=UHD user_info="NX Adv Sheet Metal" \                          
+        ISSUED=10-feb-2020 BORROW=2880 ck=182 SIGN="1BAE B1CF 5881 \            
+        D0A2 4A4E D970 B1F0 F84E 38EF B919 9AA5 6C31 2AEE 4F51 85B0 \           
+        1E1E 0933 A2BB 7AE0 294E 06A8 A254 9505 5868 8B4C 76F9 235D \           
+        6330 BF27 D9DE"                                                         
+INCREMENT sinumerik_spline ugslmd 35.0 permanent 3 SUPERSEDE \                  
+        DUP_GROUP=UHD user_info="NX Total Machining" \                          
+        ISSUED=10-feb-2020 BORROW=2880 ck=123 SIGN="10E7 A3F6 E8AD \            
+        EE97 8DAB 6C17 687E F9F7 D8D2 96B3 4ADB 8287 8AC6 69F0 A17D \           
+        1A2D 26E0 7309 3FB5 4F86 0C44 6BE7 6DEA 1051 D2E3 92AC D105 \           
+        0985 0B85 26CA"                                                         
+INCREMENT step_file_translator ugslmd 12.0 permanent 1 SUPERSEDE \              
+        DUP_GROUP=UHD user_info="STEP Translator Transition" \                  
+        ISSUED=10-feb-2020 BORROW=2880 ck=180 SIGN="1E2A 2A37 F7EE \            
+        54CB 46CC 57F6 01E3 C1E7 1FD0 62F3 AAE3 A3D5 5544 37BD 7C5E \           
+        0717 4695 387C 80B2 89A9 CE0B 4EE1 DA84 377F DBD1 200E A637 \           
+        655D 6F76 16D9"                                                         
+INCREMENT step_to_jt ugslmd 12.0 permanent 1 SUPERSEDE DUP_GROUP=UHD \          
+        user_info="STEP Translator Transition" ISSUED=10-feb-2020 \             
+        BORROW=2880 ck=180 SIGN="0C2B 05CA 8E7C 0401 3D5F 0DF7 A3C6 \           
+        DC0F EDDB 6026 E49F 24BF D4A9 5ED6 F908 1F02 F5BE FA64 1237 \           
+        915D 2256 DEA1 611B 94F3 BAED D9EB 36D4 3E55 8005 5B6B"                 
+INCREMENT teamcenter_admin ugslmd 12.0 permanent 2 SUPERSEDE \                  
+        DUP_GROUP=UHD ISSUED=10-feb-2020 ck=204 SIGN="023E 522A D68B \          
+        D4DD 9DE3 C0D6 8DC5 E6D3 CDB5 0049 570C 559F D0A2 EE02 AEAF \           
+        067B 1D25 2159 37E5 A318 CE27 F6A8 EC88 79D4 A0A8 DF75 B4FF \           
+        8570 DF54 EBDE"                                                         
+INCREMENT teamcenter_author ugslmd 12.0 permanent 811 SUPERSEDE \               
+        DUP_GROUP=UHD ISSUED=10-feb-2020 ck=164 SIGN="1A7F 3875 33C9 \          
+        2398 5510 EC03 C319 98D1 9DE3 42FD A600 975B EE96 7657 489D \           
+        189A F014 B555 B095 5A24 BCDC AA3E B348 BF7A 6185 A386 ED88 \           
+        1A36 94AB 3679"                                                         
+INCREMENT teamcenter_consumer ugslmd 12.0 permanent 720 SUPERSEDE \             
+        DUP_GROUP=UHD ISSUED=10-feb-2020 ck=173 SIGN="0258 719A AA9D \          
+        19A0 29A3 8FBE 2214 C54F 090C A432 B65F 8DBB 6571 2AD9 A839 \           
+        1BED 7D4C A9C6 FCA1 6E35 F87F 8D85 9098 23D2 70F1 C016 6B89 \           
+        083E 76F4 09ED"                                                         
+INCREMENT teamcenter_designer ugslmd 12.0 permanent 142 SUPERSEDE \             
+        DUP_GROUP=UHD ISSUED=10-feb-2020 ck=163 SIGN="0D72 031E F430 \          
+        5624 F545 D55C 8537 1523 1FDA 2540 A539 E5E4 3ED3 2CC4 B214 \           
+        1A93 C03B AD3E F3E1 6B92 542F 65D6 345F 6B0D 7195 2953 6BF3 \           
+        F8F8 B297 BC03"                                                         
+INCREMENT ufunc_development ugslmd 35.0 permanent 99999 SUPERSEDE \             
+        DUP_GROUP=UHD user_info="NX Open Toolkits Author" \                     
+        ISSUED=10-feb-2020 BORROW=2880 ck=190 SIGN="0888 C3DC BFC6 \            
+        994D AFDF 0938 4EAB 99DC 6681 8B5D 3EF9 F955 4DD9 491D 1D16 \           
+        0A99 BF1F 30AA 9870 E7EB C3D6 2AF2 D17F 81DB 5A1A 6218 17C1 \           
+        0965 6ABA 8798"                                                         
+INCREMENT ug_checkmate ugslmd 35.0 permanent 1 SUPERSEDE \                      
+        DUP_GROUP=UHD user_info="NX Check Mate Author" \                        
+        ISSUED=10-feb-2020 BORROW=2880 ck=0 SIGN="0DD1 E876 F86E 8A1C \         
+        3D76 742F E4AC 09FB 36B1 D8D9 8E34 724D D234 8E9D B87F 13B7 \           
+        CB04 F28E A41F 4B75 BA04 75AF 124F 94A3 C44B 3635 A3D9 9630 \           
+        F3DF 7BFC"                                                              
+INCREMENT ug_kf_author ugslmd 35.0 permanent 1 SUPERSEDE \                      
+        DUP_GROUP=UHD user_info="NX Check Mate Author" \                        
+        ISSUED=10-feb-2020 BORROW=2880 ck=189 SIGN="1254 5C68 9101 \            
+        92B6 0D94 12FB 6FAA 8593 15B0 F95D A380 F995 B0E6 287B A73A \           
+        0016 BD36 923D 6DE8 61B3 1899 EC4F A351 5344 24A0 C75F CDE0 \           
+        1DFC 6624 A217"                                                         
+INCREMENT ug_scenario ugslmd 35.0 permanent 8 SUPERSEDE DUP_GROUP=UHD \         
+        user_info="Common to Simcenter Eng Desktop; Simcenter \                 
+        Structures" ISSUED=10-feb-2020 BORROW=2880 ck=182 SIGN="13C9 \          
+        D413 7C96 26F4 93C9 5D7F 0134 ABF7 D721 E228 A3F6 8E45 BD63 \           
+        7603 857B 1BD4 B0ED 8371 D5F7 0EA8 7ABC 94CE 3591 4B5F 3D46 \           
+        9609 CBD9 3033 BAF9 7ADB"                                               
+INCREMENT ug_schematics ugslmd 35.0 permanent 2 SUPERSEDE \                     
+        DUP_GROUP=UHD user_info="NX SCHEMATICS" ISSUED=10-feb-2020 \            
+        BORROW=2880 ck=224 SIGN="14E5 B8DB CF2D AD72 75F9 F1F1 526A \           
+        B2E7 0440 5502 43AA 00C7 07C8 891B C244 0D44 F554 47C1 10CA \           
+        CD23 CF92 5D4F B78A 1733 A6BD 3A13 4358 0755 E9D5 CC20"                 
+INCREMENT ui_styler ugslmd 35.0 permanent 1 SUPERSEDE DUP_GROUP=UHD \           
+        user_info="NX Open Dialog Designers" ISSUED=10-feb-2020 \               
+        BORROW=2880 ck=192 SIGN="013F A0DB BC7A 169E 5255 2915 4262 \           
+        3059 DD78 8FD4 703A BDAE E3E0 75D3 E658 06AC 3DB2 2B57 02CC \           
+        423C 29E4 A719 96ED 78C8 817D D849 8541 34DA 0A58 0EB6"                 
+INCREMENT vis_3d_export_step ugslmd 12.0 permanent 1 SUPERSEDE \                
+        DUP_GROUP=UHD user_info="STEP Translator Transition" \                  
+        ISSUED=10-feb-2020 BORROW=2880 ck=193 SIGN="1F97 C009 8F2A \            
+        E99A 4171 D294 269A 9BD5 7400 44E7 FBFC EC6B 6607 6B02 24FC \           
+        0637 8030 EC2B F732 8680 7B46 A3D1 99FF E05C 04A2 E594 21F7 \           
+        900D C070 E75A"                                                         
+INCREMENT vis_3d_path_planning ugslmd 12.0 permanent 1 SUPERSEDE \              
+        DUP_GROUP=UHD user_info="Tc Vis Path Planning Plus" \                   
+        ISSUED=10-feb-2020 BORROW=2880 ck=185 SIGN="02EF 530F 52C0 \            
+        8535 E27D AD07 26D9 6195 236C AF7F C9BC 2C80 9BA6 ED0B CF94 \           
+        0F17 AD69 93CC A71F C43C 4A89 7231 DCEA 4D9A 299D AE5B 327F \           
+        78A5 DF7B 98D2"                                                         
+INCREMENT vis_3d_swept_vol_exe ugslmd 12.0 permanent 1 SUPERSEDE \              
+        DUP_GROUP=UHD user_info="Tc Vis Path Planning Plus" \                   
+        ISSUED=10-feb-2020 BORROW=2880 ck=178 SIGN="05C1 13F5 544D \            
+        F004 0F50 D153 5345 6FF0 FF3E B963 5838 FC51 2D95 718A 2390 \           
+        0E3D 231F 57AB A742 660A 2EC1 41CC 0F95 EE8D C397 7CD3 C755 \           
+        BE79 6942 AFB1"                                                         
+INCREMENT vis_3d_swept_volume ugslmd 12.0 permanent 1 SUPERSEDE \               
+        DUP_GROUP=UHD user_info="Tc Vis Path Planning Plus" \                   
+        ISSUED=10-feb-2020 BORROW=2880 ck=171 SIGN="1719 0742 6C6B \            
+        0818 3A05 0BD7 37FC B5E3 8CFA 4CFF 6BF0 FFDC 06D3 875F FC3A \           
+        123D 45E0 E658 DC2B 673E A3EF 75DD 33A2 E070 7CD4 5957 A784 \           
+        F606 73C0 6395"                                                         
+INCREMENT vis_animation_create ugslmd 12.0 permanent 2 SUPERSEDE \              
+        DUP_GROUP=UHD user_info="TC Vis Animation Creation" \                   
+        ISSUED=10-feb-2020 BORROW=2880 ck=170 SIGN="1B5F E9AA C3C3 \            
+        8766 C9A4 5036 F85D C78D 7295 E02A 0C2A ECB7 7831 2376 D568 \           
+        02CA 41A1 288D B828 BFEB 4205 C358 B7A7 ECA5 3034 0C76 F3F6 \           
+        BD0B 895A 4CB7"                                                         
+INCREMENT visview_3d_export_step ugslmd 12.0 permanent 1 SUPERSEDE \            
+        DUP_GROUP=UHD user_info="STEP Translator Transition" \                  
+        ISSUED=10-feb-2020 BORROW=2880 ck=196 SIGN="0D36 F476 A1B8 \            
+        8D46 AE2B 4FC6 43B3 2B4C 1D9E 71EC ACAE 8470 35C8 78CE F2D3 \           
+        1161 75AF D921 A0B2 C4BB 01C1 759A B76A D0C4 DEC7 D5B5 61C7 \           
+        86C8 1519 703F"                                                         
+INCREMENT visview_3d_path_planning ugslmd 12.0 permanent 1 SUPERSEDE \          
+        DUP_GROUP=UHD user_info="Tc Vis Path Planning Plus" \                   
+        ISSUED=10-feb-2020 BORROW=2880 ck=212 SIGN="1A72 9B84 E0E6 \            
+        E19A 181A 5B36 8B5C 7E62 05B2 8D9B AAE4 195C 9700 D501 E29D \           
+        0A68 D9D5 7240 12AD 8F05 C507 A8BF F41F 4356 C41E C52D 34F9 \           
+        59A8 9B8D D60A"                                                         
+INCREMENT visview_3d_swept_volume ugslmd 12.0 permanent 1 SUPERSEDE \           
+        DUP_GROUP=UHD user_info="Tc Vis Path Planning Plus" \                   
+        ISSUED=10-feb-2020 BORROW=2880 ck=253 SIGN="1D7F 5E63 E70C \            
+        9F46 B41A FCE8 9DF5 0F90 BA61 A3EF 3113 E415 9A98 3BF8 8A10 \           
+        01FA B0E8 1942 11D6 70CB 264B BC5F DD49 13F6 C5AE 0D2B 1B76 \           
+        8DDC 565C C51A"                                                         
+INCREMENT visview_3d_swept_volume_exe ugslmd 12.0 permanent 1 \                 
+        SUPERSEDE DUP_GROUP=UHD user_info="Tc Vis Path Planning Plus" \         
+        ISSUED=10-feb-2020 BORROW=2880 ck=207 SIGN="1FE3 4C60 1BDE \            
+        1B26 6D1D 7575 CB06 466A 15A1 2A33 2343 3A11 A945 300A 349C \           
+        0F57 E969 15C2 D012 F08F F00E 0C93 9828 C352 E99E 2E33 4170 \           
+        1B3D D8D2 B257"                                                         
+INCREMENT visview_animation_create ugslmd 12.0 permanent 2 SUPERSEDE \          
+        DUP_GROUP=UHD user_info="TC Vis Animation Creation" \                   
+        ISSUED=10-feb-2020 BORROW=2880 ck=188 SIGN="10C6 2B36 E35B \            
+        C48D C39A B35C C953 8A15 ACD2 486F D44B 1588 D7DC 292D 6135 \           
+        1B47 CCEF BC3D D9DC 8E06 228B 1F90 2C8E 4411 2031 0DF3 1507 \           
+        94AA B48A F7CB"                                                         
+INCREMENT visview_base ugslmd 12.0 permanent 1673 SUPERSEDE \                   
+        DUP_GROUP=UHD user_info="Common to NX Mach 3 Prod Design; \             
+        Simcenter Eng Desktop; Simcenter Structures; Tc Author; Tc \            
+        Consumer" ISSUED=10-feb-2020 BORROW=2880 ck=5 SIGN="0B7A FF59 \         
+        1863 32B8 5800 0C57 CD23 199B E8DC 4C24 7C27 EE3F 913B 959D \           
+        9246 1183 5CE2 ABDC 1028 E547 1F3C 0935 E507 0638 DCB3 1691 \           
+        831E C416 4F84 76B0"                                                    
+INCREMENT visview_mockup ugslmd 12.0 permanent 4 SUPERSEDE \                    
+        DUP_GROUP=UHD user_info="TcVis Mockup All Floating" \                   
+        ISSUED=10-feb-2020 BORROW=2880 ck=168 SIGN="108A 7C6D 74DA \            
+        E8CE 288B 2BED E1A7 287A 7BA1 EF2A F012 A4EE D486 297A A7FD \           
+        0794 0A23 C600 A055 EC95 E46C 8209 0F18 40E8 C849 CC83 39E7 \           
+        346C 2DC2 EDB8"                                                         
+INCREMENT visview_pro ugslmd 12.0 permanent 38 SUPERSEDE \                      
+        DUP_GROUP=UHD user_info="TcVisualization Pro Plus All Plat" \           
+        ISSUED=10-feb-2020 BORROW=2880 ck=225 SIGN="0633 F1DE 21D5 \            
+        D4A4 C762 BB6F 4132 2FF7 D822 4D31 9D7E CC11 67A6 EBD7 9A7A \           
+        006B 9B41 D23A 41E9 9889 9B86 D703 69DD 5DB4 210C 7A56 DC34 \           
+        61D8 E5DD CA11"                                                         
+INCREMENT vp_convert ugslmd 12.0 permanent 1535 SUPERSEDE \                     
+        DUP_GROUP=UHD user_info="Common to TC Visualization Convert; \          
+        Tc Author; Tc Consumer" ISSUED=10-feb-2020 BORROW=2880 ck=149 \         
+        SIGN="0F47 6A9C BF01 C451 980D DF4F 37D3 871C 3AC7 595F EC88 \          
+        DA35 CEBF CD40 DD65 0B17 6822 2676 5796 6D09 AE64 9D92 C25B \           
+        2B07 6DDE 40EC 14F9 3603 2AF3 DCD4"                                     
+INCREMENT vp_print ugslmd 12.0 permanent 1534 SUPERSEDE DUP_GROUP=UHD \         
+        user_info="Common to TC Visualization Print; Tc Author; Tc \            
+        Consumer" ISSUED=10-feb-2020 BORROW=2880 ck=194 SIGN="1B33 \            
+        0746 16C8 9ABE 38E1 20B3 7480 94CB 270C 6C03 EA8B B34E 97C7 \           
+        C200 1388 1287 DEC7 40EE 4C0F 4B7F 6A48 94AD EF3A 8E4B BBC4 \           
+        7CE7 14C8 E6FB 9A37 5D97"                                               
+FEATURE server_id ugslmd 35.0 permanent 1 VENDOR_STRING="17941 - \              
+        Wincor Nixdorf Internat" user_info=92JU0Y2UL0 ISSUER=SIEMENS \          
+        BORROW=2880 ck=212 SIGN="1713 30EA 58CD 2D57 421F 9200 697F \           
+        071E BAC3 3CC5 10DA EBE1 21DB CBC1 EFE8 0EA8 13F9 9D42 3F32 \           
+        7AF5 6209 9F00 330A CCC1 0438 F8C0 54F6 EBE5 B0B2 2B98"                 
+
+
+
+
+
+################################################################################
+#                                                                              #
+#              SOFTWARE LICENSE TO FEATURE NAME CROSS REFERENCE                #
+#   Version: 1899                                  Created: 02-10-2020 08:15:20#
+#   Wincor Nixdorf International GmbH      Sold-To/Install: 17941              #
+################################################################################
+
+# LICENSE PRODUCT  QTY  DESCRIPTION            QTY  FEATURE NAME                
+
+# --------------- ----- --------------------  ----- --------------------------- 
+# NX13100           134 NX Mach 3 Prod Design                                   
+#                                               134 3d_to_2d_flattener          
+#                                               134 adv_assemblies              
+#                                               134 assemblies                  
+#                                               134 design_studio               
+#                                               134 drafting                    
+#                                               134 dxf_to_ug                   
+#                                               134 dxfdwg                      
+#                                               134 features_modeling           
+#                                               134 free_form_modeling          
+#                                               134 gateway                     
+#                                               134 geometric_tol               
+#                                               134 grip_execute                
+#                                               134 ideas_integration           
+#                                               134 iges                        
+#                                               134 nc_external_program         
+#                                               134 nx_flexible_pcb             
+#                                               134 nx_freeform_1               
+#                                               134 nx_freeform_2               
+#                                               134 nx_integration              
+#                                               134 nx_nas_bn_basic_dsk         
+#                                               134 nx_nastran_export           
+#                                               134 nx_sheet_metal              
+#                                               134 nx_spsd_stress              
+#                                               134 nx_spsd_vibration           
+#                                               134 nx_visual_reporting         
+#                                               134 pcf_package_file            
+#                                               134 pstudio_cons                
+#                                               134 pv_ugdatagenerator          
+#                                               134 routing_base                
+#                                               134 sla_3d_systems              
+#                                               134 solid_modeling              
+#                                               134 step_ap203                  
+#                                               134 step_ap214                  
+#                                               134 studio_analyze              
+#                                               134 studio_free_form            
+#                                               134 studio_render               
+#                                               134 studio_visualize            
+#                                               134 teamcenter_designer         
+#                                               134 ug_checkmate                
+#                                               134 ug_kf_checker               
+#                                               134 ug_kf_execute               
+#                                               134 ug_nas_des                  
+#                                               134 ug_opt_wizard               
+#                                               134 ug_prod_des_advisor         
+#                                               134 ug_smart_models             
+#                                               134 ug_to_dxf                   
+#                                               134 ug_web_express              
+#                                               134 ugopen_menuscript           
+#                                               134 usr_defined_features        
+#                                               134 visview_base                
+# NX13430             3 NX Total Machining        3 3d_to_2d_flattener          
+#                                                 3 assemblies                  
+#                                                 3 cam_base                    
+#                                                 3 cam_facets                  
+#                                                 3 cavity_milling              
+#                                                 3 contour_profile             
+#                                                 3 drafting                    
+#                                                 3 dxf_to_ug                   
+#                                                 3 dxfdwg                      
+#                                                 3 fbm_author                  
+#                                                 3 features_modeling           
+#                                                 3 fix_axis_surf_mill          
+#                                                 3 flow_cut                    
+#                                                 3 free_form_modeling          
+#                                                 3 gateway                     
+#                                                 3 geometric_tol               
+#                                                 3 gmc                         
+#                                                 3 graphical_tool_path         
+#                                                 3 grip_execute                
+#                                                 3 iges                        
+#                                                 3 nc_external_program         
+#                                                 3 nc_wizard_builder           
+#                                                 3 nurb_output_enabler         
+#                                                 3 nx_flexible_pcb             
+#                                                 3 nx_freeform_1               
+#                                                 3 nx_freeform_2               
+#                                                 3 nx_isv_mtb                  
+#                                                 3 nx_isv_vm_hmi               
+#                                                 3 nx_nas_bn_basic_dsk         
+#                                                 3 nx_nastran_export           
+#                                                 3 nx_post_config_adv          
+#                                                 3 nx_sheet_metal              
+#                                                 3 nx_spsd_stress              
+#                                                 3 nx_spsd_vibration           
+#                                                 3 nx_tilt_tool_axis           
+#                                                 3 nx_visual_reporting         
+#                                                 3 nx_wi_authoring             
+#                                                 3 pcf_package_file            
+#                                                 3 planar_milling              
+#                                                 3 probe                       
+#                                                 3 pstudio_auth                
+#                                                 3 pstudio_cons                
+#                                                 3 pv_ugdatagenerator          
+#                                                 3 routing_base                
+#                                                 3 sequential_milling          
+#                                                 3 shop_doc                    
+#                                                 3 sinumerik_spline            
+#                                                 3 sla_3d_systems              
+#                                                 3 solid_modeling              
+#                                                 3 step_ap203                  
+#                                                 3 step_ap214                  
+#                                                 3 studio_render               
+#                                                 3 studio_visualize            
+#                                                 3 surface_milling             
+#                                                 3 sync_mgr                    
+#                                                 3 tol_cavity_milling          
+#                                                 3 ug_checkmate                
+#                                                 3 ug_holemaking               
+#                                                 3 ug_isv_full                 
+#                                                 3 ug_isv_sinumerik            
+#                                                 3 ug_kf_checker               
+#                                                 3 ug_kf_execute               
+#                                                 3 ug_library_access           
+#                                                 3 ug_nas_des                  
+#                                                 3 ug_post_exe                 
+#                                                 3 ug_post_kinematics          
+#                                                 3 ug_post_mill                
+#                                                 3 ug_smart_models             
+#                                                 3 ug_to_dxf                   
+#                                                 3 ug_to_vericut               
+#                                                 3 ug_turning                  
+#                                                 3 ug_visualize                
+#                                                 3 ug_web_express              
+#                                                 3 ugopen_menuscript           
+#                                                 3 usr_defined_features        
+#                                                 3 var_axis_surf_mill          
+#                                                 3 wire_edm_machining          
+# NX30100             1 NX Check Mate Author      1 ug_checkmate                
+#                                                 1 ug_kf_author                
+# NX30102             1 NX Open Dialog Designers                                
+#                                                 1 ui_styler                   
+# NX30106             1 NX Open Toolkits Author                                 
+#                                             99999 c_p_p_author                
+#                                             99999 dotnet_author               
+#                                             99999 java_author                 
+#                                             99999 ufunc_development           
+# NX30111             2 NX Adv Sheet Metal        2 adv_sheet_metal_dsgn        
+#                                                 2 aero_sheet_metal            
+#                                                 2 flat_patterns               
+#                                                 2 nx_sheet_metal              
+#                                                 2 sheet_metal                 
+#                                                 2 sheet_metal_design          
+# NX30123             2 NX Electrode Design       2 nx_electrode_wizard         
+# NX30134             1 Content Migration Mgr                                   
+#                                                 1 cmm_ideas_nx                
+# NX30140             1 HD3D Visual Reporting                                   
+#                                                 1 nx_visual_reporting         
+# NX30160             7 NX Routing Harness        7 routing_advanced            
+#                                                 7 routing_conduit             
+#                                                 7 routing_electrical          
+#                                                 7 routing_harness             
+#                                                 7 routing_raceway             
+#                                                 7 routing_wiring              
+# NX30512            17 NX Motion Sim-RecurDyn                                  
+#                                                17 mechanisms                  
+#                                                17 motion_dyn_lms              
+#                                                17 motion_dyn_recurdyn         
+#                                                17 motion_export_adm           
+#                                                17 motion_kin_lms              
+#                                                17 motion_kin_recurdyn         
+#                                                17 nx_3d_swept_volume          
+#                                                17 nx_ftk                      
+#                                                17 sc_motion_designer          
+# NX30535             2 Mechatronics Concept Designer for NX                    
+#                                                 2 nx_isv_mtb                  
+#                                                 2 nx_mcd_core                 
+# NX30603             3 NX PROE INTERFACE         3 proenx                      
+# SC12500             3 Simcenter Eng Desktop                                   
+#                                                 3 3d_to_2d_flattener          
+#                                                 3 ansys_meshers               
+#                                                 3 assemblies                  
+#                                                 3 dxfdwg                      
+#                                                 3 features_modeling           
+#                                                 3 gateway                     
+#                                                 3 gfem_ansys                  
+#                                                 3 gfem_nastran                
+#                                                 3 grip_execute                
+#                                                 3 id_ext_fem_beam             
+#                                                 3 ideas_integration           
+#                                                 3 iges                        
+#                                                 3 nx_freeform_1               
+#                                                 3 nx_freeform_2               
+#                                                 3 nx_ftk                      
+#                                                 3 nx_integration              
+#                                                 3 nx_masterfem                
+#                                                 3 nx_material_system          
+#                                                 3 nx_nastran_export           
+#                                                 3 nx_nastran_import           
+#                                                 3 pcf_package_file            
+#                                                 3 pstudio_cons                
+#                                                 3 pv_ugdatagenerator          
+#                                                 3 sc3d_dsktop_presence        
+#                                                 3 sc_enabled                  
+#                                                 3 sla_3d_systems              
+#                                                 3 solid_modeling              
+#                                                 3 step_ap203                  
+#                                                 3 step_ap214                  
+#                                                 3 studio_render               
+#                                                 3 studio_visualize            
+#                                                 3 teamcenter_designer         
+#                                                 3 ug_checkmate                
+#                                                 3 ug_kf_checker               
+#                                                 3 ug_kf_execute               
+#                                                 3 ug_scenario                 
+#                                                 3 ug_smart_models             
+#                                                 3 ug_web_express              
+#                                                 3 ugopen_menuscript           
+#                                                 3 usr_defined_features        
+#                                                 3 visview_base                
+# SC13500             5 Simcenter Structures      5 3d_to_2d_flattener          
+#                                                 5 ansys_meshers               
+#                                                 5 assemblies                  
+#                                                 5 dxfdwg                      
+#                                                 5 features_modeling           
+#                                                 5 gateway                     
+#                                                 5 gfem_ansys                  
+#                                                 5 gfem_nastran                
+#                                                 5 grip_execute                
+#                                                 5 id_ext_fem_beam             
+#                                                 5 ideas_integration           
+#                                                 5 iges                        
+#                                                 5 nx_freeform_1               
+#                                                 5 nx_freeform_2               
+#                                                 5 nx_ftk                      
+#                                                 5 nx_integration              
+#                                                 5 nx_masterfem                
+#                                                 5 nx_material_system          
+#                                                 5 nx_nas_bn_basic_dsk         
+#                                                 5 nx_nas_nonlin_dsk           
+#                                                 5 nx_nastran_export           
+#                                                 5 nx_nastran_import           
+#                                                 5 nx_spsd_stress              
+#                                                 5 nx_spsd_vibration           
+#                                                 5 nx_visual_reporting         
+#                                                 5 pcf_package_file            
+#                                                 5 pstudio_cons                
+#                                                 5 pv_ugdatagenerator          
+#                                                 5 sc3d_dsktop_presence        
+#                                                 5 sc_enabled                  
+#                                                 5 sla_3d_systems              
+#                                                 5 solid_modeling              
+#                                                 5 step_ap203                  
+#                                                 5 step_ap214                  
+#                                                 5 studio_render               
+#                                                 5 studio_visualize            
+#                                                 5 teamcenter_designer         
+#                                                 5 ug_checkmate                
+#                                                 5 ug_kf_checker               
+#                                                 5 ug_kf_execute               
+#                                                 5 ug_nas_bn                   
+#                                                 5 ug_scenario                 
+#                                                 5 ug_smart_models             
+#                                                 5 ug_struct_pe_solver         
+#                                                 5 ug_web_express              
+#                                                 5 ugopen_menuscript           
+#                                                 5 usr_defined_features        
+#                                                 5 visview_base                
+# SC30521             1 Simcenter Response Dynamics                             
+#                                                 1 nx_response_anlys           
+# SI2800              2 NX SCHEMATICS             2 ug_schematics               
+# TC10101           811 Tc Author               811 active_collab               
+#                                               811 teamcenter_author           
+#                                               811 visview_base                
+#                                               811 vp_convert                  
+#                                               811 vp_print                    
+# TC10102           720 Tc Consumer             720 active_collab               
+#                                               720 teamcenter_consumer         
+#                                               720 visview_base                
+#                                               720 vp_convert                  
+#                                               720 vp_print                    
+# TC30401           126 Classification Author                                   
+#                                               126 classification_authr        
+# TCADMIN             2 Teamcenter Admin          2 teamcenter_admin            
+# TNQ1008NU           8 Variation Analysis NU                                   
+#                                                 8 vis_vsa_buildmodel          
+#                                                 8 visview_vsa_buildmodel      
+#                                                 8 visview_vsa_runsim          
+#                                                 8 visview_vsa_savedoc         
+# VS20530             4 TcVis Mockup All Floating                               
+#                                                 4 flytojt_file_transl         
+#                                                 4 flytojt_file_translator     
+#                                                 4 visview_mockup              
+# VS21100            38 TcVisualization Pro Plus All Plat                       
+#                                                38 flytojt_file_transl         
+#                                                38 flytojt_file_translator     
+#                                                38 visview_pro                 
+# VS21306             2 TC Vis Animation Creation                               
+#                                                 2 vis_animation_create        
+#                                                 2 visview_animation_create    
+# VS21309             1 Tc Vis Path Planning Plus                               
+#                                                 1 vis_3d_path_planning        
+#                                                 1 vis_3d_swept_vol_exe        
+#                                                 1 vis_3d_swept_volume         
+#                                                 1 visview_3d_path_planning    
+#                                                 1 visview_3d_swept_volume     
+#                                                 1 visview_3d_swept_volume_exe 
+# VS22150             2 DXF to JT File Translator                               
+#                                                 2 dxf_file_translator         
+# VS22172             1 STEP Translator Transition                              
+#                                                 1 jt_to_step                  
+#                                                 1 step_file_translator        
+#                                                 1 step_to_jt                  
+#                                                 1 vis_3d_export_step          
+#                                                 1 visview_3d_export_step      
+# VS22175             2 IGES File Translator      2 iges_file_translator        
+# VS22515             3 TC Visualization Print                                  
+#                                                 3 vp_print                    
+# VS22925             4 TC Visualization Convert                                
+#                                                 4 vp_convert                  
+
+
+
+
+################################################################################
+#                                                                              #
+#          The following products are not included on this file                #
+#                 for the respective reason listed                             #
+#                                                                              #
+################################################################################
+
+#  PRODUCT               QTY  DESCRIPTION              REASON                   
+#  ------------------  -----  -----------------------  ---------------------    
+#  NX21001                 1  NX License Borrow Optio  No Longer Used           
+#  SI2800-SW               2  NX Schematics Software   No Feature Control       
+#  TC1DOTC                 1  Teamcenter Deployment    Deployment Option        
+#  TG30002               120  Learning Advantage Corp  No Feature Control       
+#  VS21001                 1  License Borrow Option    License Borrow Option    
+
+
+#####################################################################											
+# NX Feature2Cost License (contact Peter Klausfering or Rainer Lahme)
+#####################################################################
+# LICENSE PRODUCT  QTY  DESCRIPTION            QTY  FEATURE NAME                
+
+# --------------- ----- --------------------  ----- --------------------------- 
+# NX30216             1 NX Feature2Cost # Stamping (FL)                         
+#                                                 1 gateway                     
+#                                                 1 iges                        
+#                                                 1 nx_feature2cost_mold        
+#                                                 1 step_ap203                  
+#                                                 1 step_ap214                  
+# NX30218             1 NX Feature2Cost # Stamping (FL)                         
+#                                                 1 gateway                     
+#                                                 1 iges                        
+#                                                 1 nx_feature2cost_stmp        
+#                                                 1 step_ap203                  
+#                                                 1 step_ap214    
+
+PACKAGE NX30216 ugslmd 35.0 COMPONENTS="NX30216_gateway NX30216_iges \          
+        NX30216_nx_feature2cost_mold NX30216_step_ap203 \                       
+        NX30216_step_ap214" OPTIONS=SUITE ck=171 SIGN="0A8E 56B3 07ED \         
+        0BF1 5F1C D0D9 9DB5 F84A 9D98 02BF 07E6 8D5E E4A1 985D F97D \           
+        1B62 A1B5 9CD8 E1D5 B36C 3D9D 5523 F4A1 1F74 480A 135C 654A \           
+        B41F D9C7 BB4B"                                                         
+PACKAGE NX30218 ugslmd 35.0 COMPONENTS="NX30218_gateway NX30218_iges \          
+        NX30218_nx_feature2cost_stmp NX30218_step_ap203 \                       
+        NX30218_step_ap214" OPTIONS=SUITE ck=150 SIGN="151E 0016 2D58 \         
+        AE3F BF46 ECA7 F9B9 1BF9 1D2A 3399 5BCA 1939 26B2 C31C E0B1 \           
+        164F ABB7 6EE5 601E 7891 7185 CFE9 E32C F8A9 3623 E31C 45E5 \           
+        C3AD D5AC A25C"                                                         
+INCREMENT NX30216 ugslmd 35.0 18-feb-2020 1 SUPERSEDE DUP_GROUP=UHD \           
+        user_info="NX Feature2Cost # Stamping (FL)" ISSUED=11-feb-2020 \        
+        BORROW=2880 ck=173 SIGN="1ABE F6C5 426B 4CAE B353 6402 E122 \           
+        41DC 4E27 561E 2EC4 E909 9D24 2481 8935 0F86 6ED5 ACCD F2F5 \           
+        419B D36F 1EB6 DF61 BD35 435D B95D 3FFF EDB1 AC74 9317"                 
+INCREMENT NX30218 ugslmd 35.0 18-feb-2020 1 SUPERSEDE DUP_GROUP=UHD \           
+        user_info="NX Feature2Cost # Stamping (FL)" ISSUED=11-feb-2020 \        
+        BORROW=2880 ck=243 SIGN="0E4A F60F 865D D3D6 8AB5 20C9 A98C \           
+        F276 FCAB 4AE5 78C4 9919 FF19 5031 28FF 1AB0 F28E C629 0EDF \           
+        46A8 0F39 B6F2 C71C E840 116E AD32 2996 177C 2A94 EFB6"                 
+INCREMENT borrowing ugslmd 35.0 permanent 1 DUP_GROUP=UHD \                     
+        user_info="License Borrow Option" ISSUED=11-feb-2020 ck=180 \           
+        SIGN="00C9 8B21 E13E 4B78 59BC 5056 E515 ACDD 22BA F5F1 5BA9 \          
+        3D5B 3B71 F206 2955 141D F359 05BB A133 C624 FF8F 19CE 2041 \           
+        328E BCAF 876F 39F6 D8C3 25A5 4955"                                     
+INCREMENT gateway_id ugslmd 35.0 permanent 1000 SUPERSEDE \                     
+        DUP_GROUP=UHD user_info="I-deas gateway" ISSUED=11-feb-2020 \           
+        BORROW=2880 ck=203 SIGN="0A36 CAB6 675D 8F53 CA46 D2B3 3101 \           
+        B6B9 B93B BBE9 C94E AEAE 534D 808F 59BB 071E 15D1 8A2E 0D86 \           
+        7E76 766B 03E3 090E 715F 8886 DD33 FC96 4A1C AF11 7DF8"                 
+FEATURE server_id ugslmd 35.0 permanent 1 VENDOR_STRING="1457446 - \            
+        Wincor Nixdorf Intern" user_info=5I6F6FYZYE ISSUER=SIEMENS \            
+        BORROW=2880 ck=151 SIGN="0530 43B8 C655 B087 84CE C88B 817F \           
+        1304 4532 E827 CD5B 7D7D C469 39D5 DA66 0AE3 7909 8EDC 95B3 \           
+        6811 CFBD B532 5C4F 50A7 EEEB EBE7 A1A6 D248 C70A 9F67"    
